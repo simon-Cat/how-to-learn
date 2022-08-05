@@ -45,6 +45,7 @@
 
 .header__link {
   text-decoration: none;
+  color: #2f80ed;
 }
 
 .header__link::after {
@@ -89,11 +90,15 @@
 
 /* Content */
 
+/* description */
+
+.content__description {
+  margin: 100px auto 0
+}
+
 .description {
   width: 80%;
   display: flex;
-  margin: 0 auto;
-  margin-top: 100px;
 }
 
 .two-columns {
@@ -130,6 +135,88 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: 600;
+}
+
+/* digits */
+
+.content__digits {
+  margin: 100px 0;
+}
+
+.digits {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.digits__section-title {
+  margin: 0 0 20px 0;
+}
+
+.digits__section-subtitle {
+  margin: 0;
+}
+
+.digits__table {
+  margin: 0 auto;
+}
+
+.section-title {
+  width: 60%;
+  text-align: center;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.section-subtitle {
+  width: 60%;
+  text-align: center;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.table {
+  width: 1100px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 60px 0 0 0;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.table__cell {
+  width: 250px;
+  margin-bottom: 60px;
+}
+
+.table__cell:nth-of-type(n + 5) {
+  margin-bottom: 0;
+}
+
+
+/*  */
+/* .table__cell_space_bottom {
+  margin-bottom: 0;
+} */
+
+.table__heading {
+  margin: 0 0 20px 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.table__text {
+  margin: 0;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.table__text_space_bottom {
+  margin-bottom: 20px;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
