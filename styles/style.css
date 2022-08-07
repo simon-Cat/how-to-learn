@@ -19,6 +19,7 @@
   align-items: center;
   background-color: #f2f2f2;
   position: relative;
+  /* выше установили ограничения для секции */
 }
 
 .header__title {
@@ -185,10 +186,6 @@
   list-style: none;
 }
 
-.table__text_space_bottom {
-  margin-bottom: 20px;
-}
-
 .table__cell {
   width: 250px;
   margin-top: 60px;
@@ -206,6 +203,10 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
+}
+
+.table__text_space_bottom {
+  margin-bottom: 20px;
 }
 
 /* feynman */
