@@ -19,7 +19,6 @@
   align-items: center;
   background-color: #f2f2f2;
   position: relative;
-  /* выше установили ограничения для секции */
 }
 
 .header__title {
@@ -89,20 +88,24 @@
 }
 
 /* Content */
+.content__description {
+  padding-top: 100px;
+}
+
+.content__digits {
+  padding: 100px 0;
+}
 
 /* description */
 
-.content__description {
-  margin: 100px auto 0
-}
-
 .description {
-  width: 80%;
   display: flex;
+  justify-content: center;
 }
 
 .two-columns {
   display: flex;
+  width: 80%;
   justify-content: space-between;
 }
 
@@ -139,10 +142,6 @@
 
 /* digits */
 
-.content__digits {
-  margin: 100px 0;
-}
-
 .digits {
   display: flex;
   flex-direction: column;
@@ -158,7 +157,7 @@
 }
 
 .digits__table {
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
 }
 
@@ -186,15 +185,14 @@
   list-style: none;
 }
 
+.table__text_space_bottom {
+  margin-bottom: 20px;
+}
+
 .table__cell {
   width: 250px;
   margin-top: 60px;
 }
-
-/*  */
-/* .table__cell_space_bottom {
-  margin-bottom: 0;
-} */
 
 .table__heading {
   margin: 0 0 20px 0;
@@ -210,10 +208,6 @@
   font-weight: normal;
 }
 
-.table__text_space_bottom {
-  margin-bottom: 20px;
-}
-
 /* feynman */
 
 .feynman {
@@ -221,6 +215,7 @@
   background-repeat: no-repeat;
   background-size: 867px 637px;
   background-position: left bottom;
+  background-color: #f2f2f2;
   height: 890px;
   position: relative;
 }
@@ -231,7 +226,7 @@
   font-size: 120px;
   font-weight: 600;
   margin: 0 auto;
-  padding: 100px 0 70px 0;
+  padding: 100px 0 70px;
   text-align: center;
 }
 
@@ -261,13 +256,14 @@
 
 /* kaufman */
 
-.content__kaufman {
-  position: relative;
-}
-
 .kaufman {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   overflow: hidden;
   background-color: #1f1f1f;
+  position: relative;
+  color: white;
 }
 
 .kaufman__triangle {
@@ -275,24 +271,24 @@
   height: 877px;
   background-image: url(../images/kaufman-triangle.svg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   position: absolute;
   top: 0;
   right: -210px;
 }
 
 .section-title_theme_dark {
-  margin: 90px auto 20px;
-  color: white;
+  margin: 90px 0 20px;
+  z-index: 1;
 }
 
 .section-subtitle_theme_dark {
-  margin: 0 auto;
-  color: white;
+  z-index: 1;
 }
 
 .table_theme_dark {
-  margin: 0 auto 90px;
+  margin: 0 0 90px 0;
+  padding: 0;
 }
 
 .table__cell_theme_dark {
@@ -301,22 +297,9 @@
   z-index: 1;
 }
 
-.table__heading_theme_dark {
-  color: white;
-}
-
-.table__text_theme_dark {
-  color: white;
-}
-
 /* footer */
 
-.page__footer {
-  padding: 60px 0 40px;
-}
-
 .footer {
-  /* min-height: 350px; */
   background-color: #1f1f1f;
   color: white;
 }
@@ -326,6 +309,7 @@
   min-height: 350px;
   justify-content: space-between;
   margin: 0 auto;
+  padding: 90px 0;
   width: 90%;
 }
 
@@ -358,14 +342,14 @@
   margin: 0 0 16px;
   padding: 0;
   list-style: none;
-  line-height: 30px;
-  font-size: 18px;
-  font-weight: normal;
 }
 
 .footer__column-link {
   display: block;
   text-decoration: none;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
   color: white;
 }
 
@@ -389,17 +373,3 @@
 .footer__social-icon_type_instagram {
   background-image: url(../images/instagram_color_white.svg);
 }
-
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-/* .header__square-pic {
-  height: 568px;
-  width: 568px;
-} */
-
-/* и элемента с модификатором вида ключ-значение */
-/* .table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-} */
