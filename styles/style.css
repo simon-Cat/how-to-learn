@@ -251,6 +251,7 @@
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
+  text-decoration: none;
 }
 
 .feynman__link::after {
@@ -307,6 +308,88 @@
 .table__text_theme_dark {
   color: white;
 }
+
+/* footer */
+
+.page__footer {
+  padding: 60px 0 40px;
+}
+
+.footer {
+  /* min-height: 350px; */
+  background-color: #1f1f1f;
+  color: white;
+}
+
+.footer__columns {
+  display: flex;
+  min-height: 350px;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.footer__column_content_copyright {
+  display: flex;
+  flex-basis: 711px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.logo_place_footer {
+  background-image: url(../images/logo_place_footer.svg);
+}
+
+.footer__author {
+  margin: 18px 0;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer__column-heading {
+  margin: 0 0 20px;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.footer__column-links {
+  margin: 0 0 16px;
+  padding: 0;
+  list-style: none;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer__column-link {
+  display: block;
+  text-decoration: none;
+  color: white;
+}
+
+.footer__social-icon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.footer__social-icon_type_Facebook {
+  background-image: url(../images/facebook_color_white.svg);
+}
+
+.footer__social-icon_type_VK {
+  background-image: url(../images/vk_color_white.svg);
+}
+
+.footer__social-icon_type_instagram {
+  background-image: url(../images/instagram_color_white.svg);
+}
+
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 /* .header__square-pic {
   height: 568px;
