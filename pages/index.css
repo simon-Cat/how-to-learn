@@ -4,6 +4,9 @@
 /* page */
 @import url(../blocks/page/page.css);
 
+/* rotate */
+@import url(../blocks/rotation/rotation.css);
+
 /* header, logo */
 @import url(../blocks/header/header.css);
 @import url(../blocks/logo/logo.css);
