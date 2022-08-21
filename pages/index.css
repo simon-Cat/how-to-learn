@@ -7,6 +7,9 @@
 /* rotate */
 @import url(../blocks/rotation/rotation.css);
 
+/* link */
+@import url(../blocks/link/link.css);
+
 /* header, logo */
 @import url(../blocks/header/header.css);
 @import url(../blocks/logo/logo.css);
@@ -87,6 +90,7 @@
 
 /* resources */
 @import url(../blocks/resources/resources.css);
+@import url(../blocks/content/__resources/content__resources.css);
 @import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
 @import url(../blocks/resources/__link/resources__link.css);
 

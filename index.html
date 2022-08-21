@@ -14,17 +14,17 @@
         <p class="header__subtitle">
           Какие современные и эффективные подходы к обучению вы можете
           использовать в своей жизни?
-          <a href="#" class="header__link">Узнать</a>
+          <a href="#" class="link header__link">Узнать</a>
         </p>
         <img
           src="./images/header-image.png"
-          alt="Изображдение из мультфильма Опять двойка"
+          alt="Изображение из мультфильма Опять двойка"
           class="header__main-illustration"
         />
         <div class="header__square-pic rotation"></div>
       </header>
       <main class="content">
-        <section class="description content__description">
+        <div class="description content__description">
           <article class="two-columns">
             <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
             <div class="two-columns__main-text">
@@ -47,7 +47,7 @@
               </p>
             </div>
           </article>
-        </section>
+        </div>
         <section class="techniques content__techniques">
           <h2 class="section-title">Техники обучения</h2>
           <p class="section-subtitle">Пять практик от Барбары Оакли</p>
@@ -119,36 +119,22 @@
           <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
           <div class="video__iframes">
             <iframe
-              type="text/html"
               width="515"
-              height="289.6875"
+              height="289"
               src="https://www.youtube.com/embed/5MgBikgcWnY"
-              frameborder="0"
               allowfullscreen
               class="video__iframe"
-              >Ваш браузер не поодерживает iframe, для просмотра видео пройдите
-              по
-              <a href="https://www.youtube.com/watch?v=5MgBikgcWnY"
-                >ссылке</a
-              ></iframe
-            >
+            ></iframe>
             <iframe
-              type="text/html"
               width="515"
-              height="289.6875"
+              height="289"
               src="https://www.youtube.com/embed/arj7oStGLkU"
-              frameborder="0"
               allowfullscreen
               class="video__iframe"
-              >Ваш браузер не поодерживает iframe, для просмотра видео пройдите
-              по
-              <a href="https://www.youtube.com/watch?v=arj7oStGLkU"
-                >ссылке</a
-              ></iframe
-            >
+            ></iframe>
           </div>
         </section>
-        <section class="oakley">
+        <div class="oakley">
           <article class="two-columns">
             <h2 class="two-columns__brief">История Барбары Оакли.</h2>
             <div class="two-columns__main-text">
@@ -164,11 +150,11 @@
               </p>
             </div>
           </article>
-        </section>
+        </div>
         <section class="feynman">
           <h2 class="feynman__title">Метод Фейнмана</h2>
           <p class="feynman__subtitle">Выучить и не забыть.</p>
-          <a href="#" class="feynman__link">Побробнее</a>
+          <a href="#" class="link feynman__link">Побробнее</a>
         </section>
         <section class="digits content__digits">
           <h2 class="section-title">Цифры и факты</h2>
@@ -237,7 +223,7 @@
                 alt="Книга 'Весь мир школа', автор - Салман Хан"
                 class="khan__book-pic"
               />
-              <a href="#" class="khan__buy-link">Купить</a>
+              <a href="#" class="link khan__buy-link">Купить книгу</a>
             </div>
           </div>
         </section>
@@ -312,39 +298,49 @@
           </ul>
           <div class="kaufman__triangle rotation"></div>
         </section>
-        <section class="resources">
-          <h2 class="section-title"></h2>
-          <p class="section-subtitle"></p>
-          <div class="resources__logo-zone">
-            <a href="#"
-              ><img
-                src="./images/logo/resources-arzamas.svg"
-                alt="Логотип Arzamas"
-                class="resources__link"
-            /></a>
-            <a href="#"
-              ><img
-                src="./images/logo/resources-n1.svg"
-                alt="Логотип N+1"
-                class="resources__link"
-            /></a>
-            <a href="#"
-              ><img
-                src="./images/logo/resources-strelka.svg"
-                alt="Логотип STRELKA"
-                class="resources__link"
-            /></a>
-            <a href="#"
-              ><img
-                src="./images/logo/resources-polka.svg"
-                alt="Логотип ПОЛКА"
-                class="resources__link"
-            /></a>
-          </div>
+        <section class="resources content__resources">
+          <h2 class="section-title">Полезные ресурсы</h2>
+          <p class="section-subtitle">
+            Больше материалов о техниках и лайфхаках обучения
+          </p>
+          <ul class="resources__logo-zone">
+            <li>
+              <a href="#"
+                ><img
+                  src="./images/logo/resources-arzamas.svg"
+                  alt="Логотип Arzamas"
+                  class="link resources__link"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="./images/logo/resources-n1.svg"
+                  alt="Логотип N+1"
+                  class="link resources__link"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="./images/logo/resources-strelka.svg"
+                  alt="Логотип STRELKA"
+                  class="link resources__link"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="./images/logo/resources-polka.svg"
+                  alt="Логотип ПОЛКА"
+                  class="link resources__link"
+              /></a>
+            </li>
+          </ul>
         </section>
       </main>
       <footer class="footer">
-        <section class="footer__columns">
+        <div class="footer__columns">
           <div class="footer__column footer__column_content_copyright">
             <div class="logo logo_place_footer"></div>
             <p class="footer__author">&#xa9; Виктор Абанькин</p>
@@ -389,7 +385,7 @@
               </li>
             </ul>
           </nav>
-        </section>
+        </div>
       </footer>
     </div>
   </body>

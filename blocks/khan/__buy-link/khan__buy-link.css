@@ -5,7 +5,6 @@
   line-height: 42px;
   font-size: 30px;
   font-weight: normal;
-  transition: opacity .3s;
 }
 
 .khan__buy-link::after {
@@ -13,6 +12,3 @@
   content: " \2192";
 }
 
-.khan__buy-link:hover {
-  opacity: .7;
-}

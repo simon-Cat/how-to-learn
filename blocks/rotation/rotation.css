@@ -4,6 +4,5 @@
   }
 }
 .rotation {
-  overflow: hidden;
-  animation: rotation 20s ease infinite;
+  animation: rotation 20s linear infinite;
 }
