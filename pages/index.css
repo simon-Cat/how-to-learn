@@ -1,5 +1,5 @@
 /* normalize */
-@import url(/vendor/normalize.css);
+@import url(../vendor/normalize.css);
 
 /* page */
 @import url(../blocks/page/page.css);
@@ -25,10 +25,10 @@
 @import url(../blocks/content/__digits/content__digits.css);
 @import url(../blocks/description/description.css);
 @import url(../blocks/two-columns/two-columns.css);
-@import url(../blocks/two-columns/__brief.css/two-columns__brief.css);
-@import url(../blocks/two-columns/__main-text.css/two-columns__main-text.css);
-@import url(../blocks/two-columns/__paragraph.css/two-columns__paragraph.css);
-@import url(../blocks/two-columns/__span-accent.css/two-columns__span-accent.css);
+@import url(../blocks/two-columns/__brief/two-columns__brief.css);
+@import url(../blocks/two-columns/__main-text/two-columns__main-text.css);
+@import url(../blocks/two-columns/__paragraph/two-columns__paragraph.css);
+@import url(../blocks/two-columns/__span-accent/two-columns__span-accent.css);
 
 /* technique */
 @import url(../blocks/techniques/techniques.css);
@@ -66,7 +66,7 @@
 
 
 /* digits */
-@import url(../blocks/digits/digit.css);
+@import url(../blocks/digits/digits.css);
 @import url(../blocks/digits/__table/digits__table.css);
 
 /* khan */
@@ -82,7 +82,7 @@
 @import url(../blocks/khan/__buy-link/khan__buy-link.css);
 
 /* kaufman */
-@import url(../blocks/kaufman/kufman.css);
+@import url(../blocks/kaufman/kaufman.css);
 @import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
 @import url(../blocks/section-title/_theme/section-title_theme_dark.css);
 @import url(../blocks/table/_theme/table_theme_dark.css);
@@ -92,6 +92,7 @@
 @import url(../blocks/resources/resources.css);
 @import url(../blocks/content/__resources/content__resources.css);
 @import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
+@import url(../blocks/resources/__logo/resources__logo.css);
 @import url(../blocks/resources/__link/resources__link.css);
 
 /* footer */
